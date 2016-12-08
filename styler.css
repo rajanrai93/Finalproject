@@ -1,0 +1,162 @@
+    body {
+    background-image: url(wood.jpg);
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+    font-family: 'Kite One', sans-serif;
+    text-align: center;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+}
+
+header img {
+    width: 150px;
+}
+
+.headerwrap {
+    min-width: 1140px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.headerflex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.socialmedia ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.socialmedia img {
+    width: 40px;
+}
+
+.socialmedia .headerflex {
+    flex-direction: column;
+}
+
+#wrapper {
+    background: rgba(69, 69, 69, 0.8);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 3em;
+    border-radius: 1em;
+}
+
+#content {}
+
+#nav {
+    text-align: center;
+}
+
+#nav a:link,
+#nav a:visited {
+    font-size: 24px;
+    color: #308DCE;
+    text-decoration: none;
+    margin-right: 2px;
+    font-family: 'Kite One', sans-serif;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+#nav a:hover {
+    color: #FFF;
+    background-color: #308dce;
+    padding: 10px;
+}
+
+.navcurrent {
+    font-size: 24px;
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 2px;
+    font-family: 'Kite One', sans-serif;
+    background-color: #E79109;
+    padding: 10px;
+}
+
+main {
+    margin-bottom: 3em;
+}
+
+h2 {
+    font-size: 38px;
+    color: #E79109;
+    font-family: 'Kite One', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: 'railway', sans-serif;
+    text-align: center;
+}
+
+.floatleft {
+    float: left;
+    border: 5px solid white;
+    margin-right: 5em;
+    margin-bottom: 1.5em;
+}
+
+#dessert {
+    font-size: 38px;
+    color: #E79109;
+    font-family: 'Kite One', sans-serif;
+    text-align: center;
+}
+
+#bread {
+    border: 4px solid #308dce;
+}
+
+#bread img {
+    width: 100%;
+}
+
+#dess {
+    border: 4px solid #308dce;
+}
+
+#secondlink {
+    color: white;
+    font-family: 'Kite One', sans-serif;
+    text-align: center;
+}
+
+#imgs {
+    position: absolute;
+    left: 825px;
+    top: 125px;
+    z-index: -1;
+}
+
+#imgss {
+    position: absolute;
+    left: 825px;
+    top: 200px;
+    z-index: -1;
+}
+
+#imgsss {
+    position: absolute;
+    left: 825px;
+    top: 270px;
+    z-index: -1;

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+            
+<html lang="en"> 
+
+<head> 
+
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet">
+ 
+
+<link rel="stylesheet" type="text/css" href="styler.css">  
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("#datepicker").datepicker();
+  });
+  </script>
+
+
+
+
+<title>Since 1949</title> 
+
+</head> 
+
+<body>
+
+
+   <div id="img">
+   
+   <header>
+
+        <div class="headerwrap">
+            <div class="headerflex">
+                <img src="2logo.png" alt="Logo">
+                <h1>Max's Deli &amp; Bakery</h1>
+                <div class="socialmedia">
+                    <div class="headerflex">
+                        <a href="http://www.facebook.com"><img src="fb.png" alt="FB"></a>
+                        <a href="http://www.instagram.com"><img src="insta.png" alt="IG"></a>
+                        <a href="http://www.twitter.com"><img src="twitt.png" alt="TWITTER"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     </header>
+
+<div id="wrapper">
+
+<div id="nav">
+<a href="testing.html">Home</a>
+<a href="menu.html">Menu</a>
+<span class="navcurrent">Max's Catering</span>
+<a href="bakery.html">Bakery</a>
+<a href="About.html">About Us</a>
+
+
+
+
+<main id="content">
+
+
+
+<h2>Place Order</h2>
+<br>
+<p>Date of Order Pickup</p>
+<form>
+    <input id="datepicker" />
+</form>
+	
+    <div id="container">
+    <div id="contactform">
+		<form action=" http://webdevbasics.net/scripts/demo.php " method="post">
+			<input type="hidden" name="recipient" id="recipient" value=rajanrai93@hotmail.com>
+			<input type="hidden" name="subject" id="subject" value ="Max's Order">
+			<input type="hidden" name="redirect" id="redirect" value="">
+			<input type="hidden" name="sort" id="sort" value="order:name,email,Platter Type,Serving per people,Max's Location,Custom preference">
+
+			<div class="formrow">
+                <label for="name" class="labelcol"><p>*Name:</p></label>
+			<input type="text" name="name" id="name" size="40" required>
+            </div>
+            
+            <div class="formrow">
+                <label for="email" class="labelcol"><p>*Email:</p></label>
+			<input type="text" name="email" id="email" size="40" required>
+			</div>
+
+            <div class="formrow">
+                <label for="favtype1" class="labelcol"><p>Select what platter you would like to order</p></label>
+            <div class="elcol">
+            	<input type="checkbox" name="favcountry1" id="favcountry" value="canada">Breakfast Platter<br>
+				<input type="checkbox" name="favcountry2" id="favcountry" value="america">Lunch Special Platter<br>
+            	<input type="checkbox" name="favcountry3" id="favcountry" value="england">Sandwich Platter<br>
+            	<input type="checkbox" name="favcountry4" id="favcountry" value="china">Pastry Platter<br>
+            	<input type="checkbox" name="favcountry5" id="favtype5" value="india">Cookie Platter<br>
+            	<input type="checkbox" name="favtype6" id="favtype6" value="other">Meat &amp; Cheese Platter         
+            </div>
+            </div>
+
+            
+            <div class="formrow">
+            <br>
+                <label for="purchase" class="labelcol"><p>Select how many people you will be serving:</p></label>
+			<div class="elcol">
+            <input type="radio" name="purchase" id="radio1" value="weekly"> 5-10<br>
+			<input type="radio" name="purchase" id="radio2" value="monthly" checked="checked">15-20<br>
+			<input type="radio" name="purchase" id="radio3" value="yearly">20-30<br>
+			<input type="radio" name="purchase" id="radio4" value="never">40-50
+            </div>
+            </div>
+            
+            
+            
+            <div class="formrow">            
+                <label for="locations" class="labelcol"><p>Select the locations you will pick up from:</p></label>
+			<select size="3" name="locations" id="locations">
+				<option value="new" selected="selected">Burnaby</option>
+				<option value="paris">Vancouver</option>
+				<option value="chicago">Richmond</option>
+                <option value="other">Surrey</option>
+			</select>
+            </div>
+      
+            <div class="formrow">
+                <label for="without travel" class="labelcol"><p>If you have any personal requests please let us know in this text box</p></label>
+			<textarea name="without travel" id="without travel" rows="3" cols="60"></textarea>
+            </div>
+					
+			<input type="submit" value=" Submit Form " class="subbuttom">
+			<input type="reset" value=" Reset Form ">
+		</form>    </div>
+	</div>
+
+
+<div class="contact">
+
+<hr>    	<h2>Message Us</h2>
+<p>If you have any questions please submit your info below and one of our workers will personally get back to you.</p>    	<div id="contact form">
+		<form action="http://webdevbasics.net/scripts/demo.php" method="post">
+			<input type="hidden" name="recipient" id="recipient" value="rajanrai93@hotmail.com">
+			<input type="hidden" name="subject" id="subject" value ="Message from website">
+			<input type="hidden" name="redirect" id="redirect" value="">
+			<input type="hidden" name="sort" id="sort" value="order:name,email,phone,desc">
+
+			<div class="formrow">
+                <label for="name" class="labelcol"><p>*Name:</p></label>
+			<input type="text" name="name" id="name" size="22" required>
+            </div>
+			<div class="formrow">
+                <label for="email" class="labelcol"><p>*Email</p>:</label>
+			<input type="text" name="email" id="email" size="22" required>
+			</div>
+            <div class="formrow">
+                <label for="phone" class="labelcol"><p>Phone#:</p></label>
+			<input type="text" name="phone" id="phone" size="22">            
+			</div>
+            <div class="formrow" style="clear:both">
+                <label for="desc" class="labelcol"><p>Message:</p></label>
+			<textarea name="desc" id="desc" rows="8" cols="18"></textarea>
+            </div>
+            
+			<input type="submit" value=" Submit Form " class="subbuttom">
+		</form>
+        </div>
+    </div>
+</div>
+
+<a href="#top" class="secondlink">Top</a>	</div>
+
+</div>
+
+</div> 
+    
+
+    
+</html>
+</main>
+
+
+</body>
+
+</html>
